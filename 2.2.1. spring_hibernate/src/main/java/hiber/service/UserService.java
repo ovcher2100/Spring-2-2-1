@@ -12,5 +12,5 @@ public interface UserService {
 
     void saveUserWithCar(User user, Car car);
 
-    User getUserByCarModelAndSeries(String model, int series);
+    User getByCar (String model, int series);
 }

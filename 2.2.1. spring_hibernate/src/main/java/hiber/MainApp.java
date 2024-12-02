@@ -30,7 +30,7 @@ public class MainApp {
       userService.saveUserWithCar(user3,car3);
       userService.saveUserWithCar(user4,car4);
 
-      User user5 = userService.getUserByCarModelAndSeries("BMW",2021);
+      User user5 = userService.getByCar("BMW",2021);
       System.out.println(user5);
       System.out.println();
 
